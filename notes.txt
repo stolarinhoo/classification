@@ -1,0 +1,7 @@
+conda install -c anaconda ipykernel
+python -m ipykernel install --user --name=karolina_cz
+
+
+
+conda env export > environment.yml
+conda env create -f environment.yml
